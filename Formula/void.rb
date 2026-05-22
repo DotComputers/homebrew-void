@@ -1,24 +1,24 @@
 class Void < Formula
   desc "Ham radio for the internet — terminal-native ephemeral social"
   homepage "https://void-relay.com"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url    "https://github.com/DotComputers/voidtui/releases/download/v0.1.4/void-darwin-arm64.tar.gz"
-      sha256 "0b7b642f1993d01b21a0c05a1023b876825e0213c0a4c23812bf0f239e463765"
+      url    "https://github.com/DotComputers/voidtui/releases/download/v0.1.5/void-darwin-arm64.tar.gz"
+      sha256 "bbb904f8788e7cb2b4f98ff1f09cb1ca921e07483794b97efa0af22a5b3c0eb2"
     end
     # darwin-x64 (Intel Mac) omitted in v0.1; see workflow build matrix.
   end
   on_linux do
     on_arm do
-      url    "https://github.com/DotComputers/voidtui/releases/download/v0.1.4/void-linux-arm64.tar.gz"
-      sha256 "4b8ddbd3f1b3e1759fe4385a269e938fa5af6d133ecdd8a639763295f23b514f"
+      url    "https://github.com/DotComputers/voidtui/releases/download/v0.1.5/void-linux-arm64.tar.gz"
+      sha256 "dafc0ac2f73643aa4f1f22108c977fcd5ac57294ac180d08648951c88e6149d4"
     end
     on_intel do
-      url    "https://github.com/DotComputers/voidtui/releases/download/v0.1.4/void-linux-x64.tar.gz"
-      sha256 "d2d8a33f70a565ae6a8010b5bd46c2b1769e4b4e9cd414d5ca9bbf58e90fdd30"
+      url    "https://github.com/DotComputers/voidtui/releases/download/v0.1.5/void-linux-x64.tar.gz"
+      sha256 "20e40567aa26b5fead9db46ac8bccc1b6cce44f72bddee460371ec91dbe25f1e"
     end
   end
 
